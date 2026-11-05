@@ -1,0 +1,278 @@
+.mynav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.mynav{
+    width: 100%;
+}
+.mynav ul{
+    margin-right: 40px;
+}
+.move img{
+    width: 100%;
+   
+}
+/* .carousel-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+} */
+.container{
+    width: 100%;
+    height: 300px;
+    background: whitesmoke;
+}
+#section{
+    width: 100%;
+    height:auto;
+    background: whitesmoke;
+}
+.vivi{
+    width: 100%;
+    height:auto;
+    background: whitesmoke;
+}
+#services{
+    width: 100%;
+    height: auto;
+}
+.shows{
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    padding: 30px;
+}
+.about ul{
+    list-style: none;
+
+}
+.about ul li{
+    padding: auto;
+}
+.chris:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.products{
+    width: 100%;
+   
+    background-image: url(../images/inner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+
+}   
+   
+.products:hover{
+    width: 100%;
+    background-image: url(../images/inner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    animation: toto 1s linear;
+   
+}
+
+@keyframes toto {
+    from{background-size: 500px;}
+    to{background-size: 600px;}
+}
+.benn{
+    width: 100%;
+    height: 60px;
+    background: green;
+    opacity: 0.75;
+    position: absolute;
+    bottom: 0;
+    display: none;
+   
+   
+}
+.products:hover .benn{
+
+   display: block;
+}
+.bigg{
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 20px;
+    color: white;
+}
+.bigg:hover{
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+#contact {
+    background-color: white;
+}
+
+
+/* LEFT CONTACT INFORMATION */
+
+.info {
+    background-color: white;
+    padding: 30px;
+    height: 100%;
+    
+    border: 1px solid green;
+
+    box-shadow: 0 4px 15px gainsboro;
+}
+
+
+/* LOCATION / CALL / EMAIL */
+
+.info h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.info p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+
+/* GOOGLE MAP */
+
+.map {
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* RIGHT FORM */
+
+.myform {
+    background-color: white;
+    padding: 30px;
+    height: 100%;
+
+    border: 1px solid green;
+
+    box-shadow: 0 4px 15px gainsboro;
+}
+
+
+/* LABEL */
+
+.myform label {
+    margin-bottom: 7px;
+    display: block;
+}
+
+
+/* INPUTS */
+
+.myform .form-control {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+
+/* BUTTON */
+
+.myform button {
+    padding: 10px 25px;
+}
+.accordion-item h2 button{
+    color: rgb(28, 150, 28);
+}
+#about{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    scroll-margin-top: 75px;
+}
+#services{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    scroll-margin-top: 75px;
+}
+#products{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    scroll-margin-top: 75px;
+}
+#contact{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    scroll-margin-top: 75px;
+}
+#faq{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    scroll-margin-top: 75px;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.chr img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.foot{
+    padding: 0;
+    margin: 0;
+}
+.foot ul{
+    list-style: none;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 0;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 0;
+}
+.foot ul li a:hover{
+    text-decoration: underline;
+    color: green;
+   
+}
+.ebb{
+    height: 100px;
+    padding: 30px;
+}
+.chichi{
+    width: 120px;
+    height: 80px;
+    background: none;
+    display: flex;
+    padding-top: 30px;
+    float: right;
+}
+.hihi{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    color: green;
+}
+.hihi:hover{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
